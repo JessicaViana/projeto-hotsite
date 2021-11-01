@@ -14417,6 +14417,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Jessica Viana\\Documents\\Projetos .NET\\0c06\\projetohotsite\\Views\\Home\\_CardLinks.cshtml",
+      "TargetPath": "Views\\Home\\_CardLinks.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Jessica Viana\\Documents\\Projetos .NET\\0c06\\projetohotsite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

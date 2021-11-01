@@ -1,0 +1,21 @@
+﻿@font-face {
+  font-family: 'Rhodium Libre';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rhodiumlibre/v7/1q2AY5adA0tn_ukeHcQHqpx6lELBe72g.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+.container{
+  font-family: 'Rhodium Libre', serif;
+  font-size: 0.95rem;
+}
+
+.figure {width: 100px;}
+
+.figure-caption a {
+  color: #846F75;
+}
+
+#formulario {border: 3px solid #846F75; background: rgba(249, 176, 135, 0.1);}

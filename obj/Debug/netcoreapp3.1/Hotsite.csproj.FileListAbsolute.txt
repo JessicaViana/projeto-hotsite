@@ -65,3 +65,4 @@ C:\Users\Jessica Viana\Documents\Projetos .NET\0c06\projetohotsite\bin\Debug\net
 C:\Users\Jessica Viana\Documents\Projetos .NET\0c06\projetohotsite\bin\Debug\netcoreapp3.1\Serilog.Sinks.Async.dll
 C:\Users\Jessica Viana\Documents\Projetos .NET\0c06\projetohotsite\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
 C:\Users\Jessica Viana\Documents\Projetos .NET\0c06\projetohotsite\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
+C:\Users\Jessica Viana\Documents\Projetos .NET\0c06\projetohotsite\obj\Debug\netcoreapp3.1\Razor\Views\Home\_CardLinks.cshtml.g.cs
