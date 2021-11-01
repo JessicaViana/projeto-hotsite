@@ -29,11 +29,13 @@ namespace Hotsite.Controllers
             try{
                 DatabaseService dbs = new DatabaseService();
                 dbs.CadastraInteresse(cad);
+                return Json( new {status = "OK"});
 
             }catch(Exception e){
-                _logger.LogError("Error ao conectar com DB " +e.Message);    
+                _logger.LogError("Error ao conectar com DB " +e.Message);
+                 return Json( new {status = "ERR", mensagem = "Falha no banco de dados,"});               
             }
-                return View("Index",cad);
+                //return View("Index",cad);
         }
 
     }

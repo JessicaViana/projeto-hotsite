@@ -23,32 +23,32 @@
                 <h5>Entre em contato!:</h5>
                 <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
 
-                <form action="/Home/Cadastrar" method="POST">
+                <form method="POST" id="frmCadastro">
                     <div class="row">
                         <div class="col-sm-3 col-form-label">
                             <label asp-for="Nome">Nome:</label>
                         </div>
                         <div class="col-sm-9">
-                            <input asp-for="Nome" />
+                            <input asp-for="Nome" id="nome" required />
                         </div>
 
                         <div class="col-sm-3 col-form-label">
                             <label asp-for="Email">Email:</label>
                         </div>
                         <div class="col-sm-9">
-                            <input asp-for="Email" />
+                            <input asp-for="Email" id="email" required />
                         </div>
 
                         <div class="col-sm-3 col-form-label">
                             <label asp-for="Mensagem">Mensagem: (Opcional)</label>
                         </div>
                         <div class="col-sm-9">
-                            <textarea asp-for="Mensagem" cols="21" rows="4"></textarea>
+                            <textarea asp-for="Mensagem" cols="21" rows="4" id="mensagem"></textarea>
                         </div>
                     </div>
                     <div class="row justify-content-end">
                         <div class="col-sm-4" >
-                            <input type="submit" value="ENVIAR" />
+                            <input type="submit" value="ENVIAR" id="btnSubmit"/>
                         </div>
                     </div>
                 </form>
